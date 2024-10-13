@@ -62,7 +62,7 @@ function Dashboard() {
 
   return (
     <div>
-      <h1>Bitcoin Market Dashboard</h1>
+      <h1>Bitcoin Market Dashboard</h1> <h1>By Fran Figueroa</h1>
       <div>
         <p><strong>Current Price:</strong> ${currentPrice}</p>
         <p><strong>All-Time High (ATH):</strong> ${ath}</p>
