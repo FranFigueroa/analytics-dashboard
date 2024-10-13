@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# Bitcoin Market Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Un **Dashboard de Bitcoin** que muestra información en tiempo real sobre el mercado utilizando la API de CoinGecko. El dashboard incluye el precio actual de Bitcoin, su máximo histórico (ATH), el volumen negociado, el cambio porcentual en las últimas 24 horas, y un gráfico de la evolución del precio en los últimos 30 días.
 
-## Available Scripts
+## Screenshots
 
-In the project directory, you can run:
+### Vista principal del dashboard
+![Bitcoin Dashboard](./assets/Screenshot.png)
 
-### `npm start`
+## Características
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Precio en tiempo real** de Bitcoin en USD.
+- **Máximo histórico (ATH)** de Bitcoin.
+- **Cambio en las últimas 24 horas** en porcentaje.
+- **Volumen total negociado** en USD.
+- **Sentimiento del mercado**, que muestra el porcentaje de opiniones positivas.
+- **Gráfico de línea** que muestra la tendencia del precio de Bitcoin en los últimos 30 días.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tecnologías utilizadas
 
-### `npm test`
+- **Backend**: Node.js, Express, Axios
+- **Frontend**: React, Chart.js, React-Chartjs-2
+- **API**: CoinGecko API
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Requisitos previos
 
-### `npm run build`
+Antes de ejecutar este proyecto, asegúrate de tener instalado:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Node.js** (v12 o superior)
+- **npm** (v6 o superior)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Instrucciones de instalación
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Sigue estos pasos para ejecutar el proyecto localmente:
 
-### `npm run eject`
+### Clonar el repositorio
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+git clone https://github.com/FranFigueroa/bitcoin-dashboard.git
+cd bitcoin-dashboard
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
