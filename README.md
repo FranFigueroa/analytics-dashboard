@@ -1,6 +1,7 @@
-# Bitcoin Market Dashboard https://analytics-dashboard-bay.vercel.app/
+# Bitcoin Market Dashboard 
 
 Un **Dashboard de Bitcoin** que muestra información en tiempo real sobre el mercado utilizando la API de CoinGecko. El dashboard incluye el precio actual de Bitcoin, su máximo histórico (ATH), el volumen negociado, el cambio porcentual en las últimas 24 horas, y un gráfico de la evolución del precio en los últimos 30 días.
+https://analytics-dashboard-bay.vercel.app/
 
 ## Screenshots
 
