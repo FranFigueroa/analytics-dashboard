@@ -5,7 +5,7 @@ Un **Dashboard de Bitcoin** que muestra información en tiempo real sobre el mer
 
 ## Screenshots
 
-### Vista principal del dashboard
+#### Vista principal del dashboard
 ![Bitcoin Dashboard](./assets/Screenshot.png)
 
 ## Características
